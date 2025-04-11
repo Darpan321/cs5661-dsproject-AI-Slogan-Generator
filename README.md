@@ -44,3 +44,15 @@
    ```bash
    pip install -r requirements.txt
    ```
+
+## Usage
+
+## Contributors
+
+We want to thank the following individuals who have contributed to this project:
+
+
+| Name | GitHub Username |
+|---|---|
+| Jesus A. Beltran | [3eltran23](https://github.com/3eltran23) |
+| Collaborator Name 2 (optional) | [Collaborator Username 2](https://github.com/CollaboratorUsername2) (optional) |
