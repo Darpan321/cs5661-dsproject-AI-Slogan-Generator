@@ -1,14 +1,13 @@
 # 📊 [Project Title Here]
+> Example:  
+> **Early Skin Cancer Detection: Bringing Dermatology to Everyone)**
 
-## 🧠 Elevator Pitch
-
-_A concise 2–4 sentence summary of your project:_
-What problem are you solving?  
-Why does it matter?  
-Who does it benefit?
+## Project Description (Add the Big Idea)
 
 > Example:  
-> **Augmented Thematic Analysis with Large Language Models (ATA-LLM)** enhances thematic analysis in HCI research by streamlining the manual process of qualitative data analysis. Leveraging LLMs, this tool automates routine tasks and provides intelligent suggestions, allowing researchers to focus on insight generation over manual coding—especially when dealing with large datasets like interview transcripts.
+> AI-driven smartphone-based image quality  skin cancer detection can democratize early diagnosis, improving global healthcare accessibility and patient outcomes.
+
+.
 
 ---
 
