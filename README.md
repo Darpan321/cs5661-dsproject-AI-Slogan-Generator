@@ -11,14 +11,12 @@
 
 ---
 
-## 📁 Repository Description
-
-This repository contains the code, data, and documentation for our [Data Science / Machine Learning] project. It includes:
-- Exploratory Data Analysis (EDA)
-- Data Quality Checks (PreML Checklist)
-- Preprocessing Scripts
-- A completed [Google Data Card](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/DataCardsExtendedTemplate.md)
-- Final datasets and results (when applicable)
+## 📂 Repository Structure
+- `data/`: Raw and processed datasets
+- `notebooks/`: Jupyter Notebooks for data validation and analysis
+- `src/`: Preprocessing or helper scripts
+- `data_card.md`: Dataset documentation ([Google Data Card](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/DataCardsExtendedTemplate.md))
+- `README.md`: This file
 
 ---
 
