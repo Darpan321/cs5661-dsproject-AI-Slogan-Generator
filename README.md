@@ -1,6 +1,4 @@
-# 📊 [Project Title Here]
-> Example:  
-> **Early Skin Cancer Detection: Bringing Dermatology to Everyone)**
+# 📊 AI Slogan Generator
 
 ## Project Description (Add the Big Idea)
 
@@ -30,8 +28,8 @@
 
 1. **Clone the Repository**
    ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+   git clone https://github.com/Darpan321/cs5661-dsproject-AI-Slogan-Generator.git
+   
 2. **Create and activate a virtual environment**
 
    ```bash
@@ -55,4 +53,4 @@ We want to thank the following individuals who have contributed to this project:
 | Name | GitHub Username |
 |---|---|
 | Jesus A. Beltran | [3eltran23](https://github.com/3eltran23) |
-| Collaborator Name 2 (optional) | [Collaborator Username 2](https://github.com/CollaboratorUsername2) (optional) |
+| Darpan Patel | [Darpan321](https://github.com/Darpan321) |
