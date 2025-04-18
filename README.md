@@ -1,11 +1,8 @@
 # 📊 AI Slogan Generator
 
-## Project Description (Add the Big Idea)
+## Project Description
 
-> Example:  
-> AI-driven smartphone-based image quality  skin cancer detection can democratize early diagnosis, improving global healthcare accessibility and patient outcomes.
-
-.
+> AI-driven slogan generation using transformer models can transform the way brands communicate their identity. By automatically generating creative, brand-specific slogans, this technology reduces the time and cost of traditional brainstorming. It empowers businesses to quickly craft memorable, audience-focused messaging. This makes branding smarter, faster, and more accessible for companies of all sizes. 
 
 ---
 
@@ -13,7 +10,7 @@
 - `data/`: Raw and processed datasets
 - `notebooks/`: Jupyter Notebooks for data validation and analysis
 - `src/`: Preprocessing or helper scripts
-- `data_card.md`: Dataset documentation ([Google Data Card](https://github.com/PAIR-code/datacardsplaybook/blob/main/templates/DataCardsExtendedTemplate.md))
+- `data_card.md`: Dataset documentation
 - `README.md`: This file
 
 ---
@@ -54,3 +51,4 @@ We want to thank the following individuals who have contributed to this project:
 |---|---|
 | Jesus A. Beltran | [3eltran23](https://github.com/3eltran23) |
 | Darpan Patel | [Darpan321](https://github.com/Darpan321) |
+| Kinnariben Manojkumar Kotadiya | [Kinnari7](https://github.com/Kinnari7) |
