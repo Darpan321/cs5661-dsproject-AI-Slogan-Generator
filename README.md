@@ -52,3 +52,4 @@ We want to thank the following individuals who have contributed to this project:
 | Jesus A. Beltran | [3eltran23](https://github.com/3eltran23) |
 | Darpan Patel | [Darpan321](https://github.com/Darpan321) |
 | Kinnariben Manojkumar Kotadiya | [Kinnari7](https://github.com/Kinnari7) |
+| Harita Parikh | [haritaparikh05](https://github.com/haritaparikh05) |
