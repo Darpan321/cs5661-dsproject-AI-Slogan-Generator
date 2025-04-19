@@ -7,9 +7,12 @@ This dataset supports the development of a deep learning model that automaticall
 https://www.kaggle.com/datasets/chaibapat/slogan-dataset
 
 ## Data Card Author(s)
-- Yash Sohagia, CSULA, (Owner)
-- Darpan Patel, CSULA, (Contributor)
-- Jay Bambhroliya, CSULA, (Contributor)
+- Kinnari Kotadiya
+- Dhruvi Desai
+- Palak Dave
+- Harita Parikh
+- Tushar Bhaliya
+- Darpan Patel
 
 ## Publishers
 California State University, Los Angeles (CSULA)
