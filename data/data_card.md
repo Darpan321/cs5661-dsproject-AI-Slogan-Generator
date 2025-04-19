@@ -1,73 +1,91 @@
-# 📊 Data Card: Slogan Dataset
 
-## Dataset Summary
-The Slogan Dataset is a curated collection of real-world brand slogans used across various industries.It includes the brand or company name, its corresponding industry/category, and the associated marketing slogan. This dataset serves as the foundation for training AI models that generate creative and contextually appropriate slogans.
+# Dataset Name: AI Slogan Generator
 
----
+This dataset supports the development of a deep learning model that automatically generates creative and relevant slogans based on a brand name or industry category. The data, sourced from Kaggle, includes slogans from real-world companies, capturing how different industries frame their messaging. The goal is to build a sequence generation model (e.g., LSTM, Transformer) that can replicate these patterns.
 
-## Dataset Details
+## Dataset Link
+https://www.kaggle.com/datasets/chaibapat/slogan-dataset
 
-**Source:**  
-Kaggle - [Slogan Dataset by chaibapat](https://www.kaggle.com/datasets/chaibapat/slogan-dataset?resource=download)
+## Data Card Author(s)
+- Yash Sohagia, CSULA, (Owner)
+- Darpan Patel, CSULA, (Contributor)
+- Jay Bambhroliya, CSULA, (Contributor)
 
-**Domain:**  
-Marketing, Advertising, Natural Language Processing (NLP)
+## Publishers
+California State University, Los Angeles (CSULA)
 
-**Number of Records:**  
-~6,000 (based on source dataset)
+## Industry Type(s)
+- Academic - Tech
 
-**Features:**
-- `Brand/Company Name`: The name of the business or product
-- `Category/Industry`: The domain or sector the brand operates in
-- `Slogan`: The marketing phrase used by the brand
+## Dataset Overview
+### Data Subject(s)
+- Non-Sensitive Data about people
+- Data about systems or products and their behaviors
 
----
+### Dataset Snapshot
+Category | Data
+--- | ---
+Size of Dataset | ~500 KB
+Number of Instances | ~9,000 slogans
+Number of Fields | 3 (Brand, Industry, Slogan)
+Labeled Classes | N/A
+Number of Labels | N/A
+Average Labels Per Instance | N/A
+Algorithmic Labels | None
+Human Labels | Yes
+Other Characteristics | Text data with categorical context
 
-## Motivation
+### Content Description
+Each entry includes a brand or company name, an industry category, and a corresponding slogan. This structured format enables model training for text generation conditioned on input features like category or brand name.
 
-Slogans have strong value in branding and product recall. Manually generating slogans is time-consuming and highly creative, making it a perfect candidate for automation using AI. This dataset enables training a language model to learn slogan structures, patterns, and contextual relevance.
+## Sensitivity of Data
+- Anonymous Data
+- None of the records contain PII
 
----
+## Security and Privacy Handling
+All data is scraped or compiled from public sources and made available on Kaggle for educational use. No identifiable or sensitive personal information is included.
+
+## Transformation(s) Applied
+- Cleaning Missing Values
+- Deduplication
+- Tokenization for model input
+- Lowercasing and Unicode normalization
+
+## Primary Data Modality
+- Tabular Data
+- Text Data
+
+## Annotations & Labeling
+- Human Annotations: All slogans were human-authored originally and paired with brand/context by dataset creators
 
 ## Intended Use
+- AI-assisted slogan generation
+- NLP research in text generation
+- Creative tools for marketing/branding teams
 
-This dataset is intended for:
-- Training AI/ML models for slogan or short text generation
-- Research in creative NLP applications
-- Educational purposes in sequence modeling and marketing automation
+## Limitations & Tradeoffs
+- Limited diversity across global markets
+- Bias toward specific industries or cultural framing
+- Not updated to include slogans post-2023
 
----
+## Version and Maintenance
+- Version: 1.0
+- Status: Static
+- Last Updated: 04/2025
+- Next Update: None scheduled
 
-## Collection Process
+## Tools Used
+- Python, pandas
+- LSTM, Transformer (planned)
+- Google Colab
 
-The data was compiled from public sources, such as brand websites, advertisements, and promotional materials. The Kaggle uploader gathered slogans from diverse industries to create a generalizable dataset for generative modeling.
+## Known Correlation(s)
+- Certain industries (e.g., food, tech) show distinct slogan patterns
+- Frequent use of imperative tone (e.g., "Just do it")
 
----
-
-## Preprocessing Steps
-- Removed null or duplicate entries
-- Normalized text (e.g., removed special characters)
-- Encoded inputs for model training (e.g., tokenization, padding)
-- Split into training/validation sets for model evaluation
-
----
-
-## Ethical Considerations
-- The dataset contains slogans from real companies, which may be subject to copyright or trademark protection. Generated outputs should be used responsibly and not be directly attributed to real brands without permission.
-- Bias may exist if certain industries or styles are overrepresented, potentially affecting model generalization.
-
----
-
-## Limitations
-- Limited variety in slogans from underrepresented industries
-- Dataset may contain outdated or promotional slogans that no longer reflect current branding
+## Risk Type(s)
+- No Known Risks
 
 ---
 
-## Licensing
-This dataset is publicly available for educational and research purposes under Kaggle’s data sharing policies. Please check the Kaggle page for specific licensing details.
-
----
-
-## Citation
-> Dataset by chaibapat on Kaggle: https://www.kaggle.com/datasets/chaibapat/slogan-dataset
+*This Data Card was created based on the extended template from the [Google Data Cards Playbook](https://sites.research.google/datacardsplaybook/).*
