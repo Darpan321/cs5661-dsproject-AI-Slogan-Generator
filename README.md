@@ -1,17 +1,17 @@
 # 📊 AI Slogan Generator
 
-## Project Description
+## Project Description (Big Idea)
 
 > AI-driven slogan generation using transformer models can transform the way brands communicate their identity. By automatically generating creative, brand-specific slogans, this technology reduces the time and cost of traditional brainstorming. It empowers businesses to quickly craft memorable, audience-focused messaging. This makes branding smarter, faster, and more accessible for companies of all sizes. 
 
 ---
 
 ## 📂 Repository Structure
-- `data/`: Raw and processed datasets
-- `notebooks/`: Jupyter Notebooks for data validation and analysis
+- `data/`: Raw and processed Company slogan datasets
+- `notebooks/`: Jupyter Notebooks for data validation, preprocessing, and modeling
 - `src/`: Preprocessing or helper scripts
 - `data_card.md`: Dataset documentation
-- `README.md`: This file
+- `README.md`: Project overview and contribution guide
 
 ---
 
@@ -32,24 +32,20 @@
    ```bash
    # pip install virtualenv (if you don't have virtualevn installed)
    virtualenv venv
-   source venv/bin/activate
+   source venv/bin/activate # On Windows: venv\Scripts\activate
    ```
 3. **Install project dependencies or libraries needed to run this project.**
 
    ```bash
+   # Install dependencies
    pip install -r requirements.txt
+   # Launch Jupyter
+   jupyter notebook
    ```
-
-## Usage
-
 ## Contributors
-
-We want to thank the following individuals who have contributed to this project:
-
 
 | Name | GitHub Username |
 |---|---|
-| Jesus A. Beltran | [3eltran23](https://github.com/3eltran23) |
 | Darpan Patel | [Darpan321](https://github.com/Darpan321) |
 | Kinnariben Manojkumar Kotadiya | [Kinnari7](https://github.com/Kinnari7) |
 | Harita Parikh | [haritaparikh05](https://github.com/haritaparikh05) |
